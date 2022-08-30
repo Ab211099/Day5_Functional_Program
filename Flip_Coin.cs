@@ -17,11 +17,11 @@ namespace Basic_core_programs
 
             for (int i = 0; i <= n; i++)
             {
-                double randomInput = random.NextDouble();
-                Console.WriteLine("random input" + randomInput);
-                if (randomInput <= 0.5)
+                double randomNum = random.NextDouble();
+                Console.WriteLine("random input" + randomNum);
+                if (randomNum <= 0.5)
                 {
-                    if (randomInput == 0)
+                    if (randomNum == 0)
                     {
                         Console.WriteLine("Heads");
                         heads += 1;
