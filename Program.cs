@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello welcome to Basic Core Programs");
             Console.WriteLine("Enter the program number \n 1.Flip coin \n 2.Leap year" +
-                "\n 3. Find Power Of Two \n 4.Harmonic number ");
+                "\n 3. Find Power Of Two \n 4.Harmonic number \n 5.Factors Program");
             int proramCheck = Convert.ToInt32(Console.ReadLine());
 
             switch (proramCheck)
@@ -22,6 +22,9 @@
                     break;
                 case 4:
                     Harmonic_number.Number();
+                    break;
+                case 5:
+                    Factors.FactorMethod();
                     break;
             }
             
