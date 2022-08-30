@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello welcome to Basic Core Programs");
             Console.WriteLine("Enter the program number \n 1.Flip coin \n 2.Leap year" +
-                "\n 3. Find Power Of Two \n 4.Harmonic number \n 5.Factors Program \n 6. Calculate Quotient & Reminder");
+                "\n 3. Find Power Of Two \n 4.Harmonic number \n 5.Factors Program \n 6. Calculate Quotient & Reminder \n 7. Swap two numbers");
             int proramCheck = Convert.ToInt32(Console.ReadLine());
 
             switch (proramCheck)
@@ -28,6 +28,9 @@
                     break;
                 case 6:
                     Quotient_reminder.QuoReminder();
+                    break;
+                case 7:
+                    Swap_Two_numbers.SwapNumber();
                     break;
 
             }
